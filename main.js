@@ -104,6 +104,15 @@ async function newYorkTimes(){
     const gridItem8Author = data.results[9].byline;
     document.getElementById("grid-item8-author").innerHTML = gridItem8Author;
 
+    const gridItem9Title = data.results[11].title;
+    document.getElementById("grid-item9-title").innerHTML = gridItem9Title;
+
+    const gridITem9Abstract = data.results[11].abstract;
+    document.getElementById("grid-item9-abstract").innerHTML = gridITem9Abstract;
+
+    const gridItem9Author = data.results[11].byline;
+    document.getElementById("grid-item9-author").innerHTML = gridItem9Author;
+
 }
 
 

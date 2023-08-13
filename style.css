@@ -201,12 +201,9 @@ nav{
     width: 100%;
 }
 
-
 .container1{
     padding: 20px;
-    
     display: grid;
-    grid-template-columns: 50% 50%;
 }
 
 .grid-item{
@@ -310,6 +307,7 @@ nav{
     width: 100%;
     height: auto;
     max-height: 200px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
    }
 
 #grid-item5-caption{
@@ -317,18 +315,18 @@ nav{
    }
 
 
-   #grid-item5-title,#grid-item6-title,#grid-item7-title,#grid-item8-title{
+   #grid-item5-title,#grid-item6-title,#grid-item7-title,#grid-item8-title,#grid-item9-title{
     margin-bottom: 10px;
     text-align: center;
    }
 
-   #grid-item6-author,#grid-item7-author,#grid-item8-author{
+   #grid-item6-author,#grid-item7-author,#grid-item8-author,#grid-item9-author{
     font-style: italic;
     text-align: center;
     color: var(--dim-gray);
    }
 
-   #grid-item6-abstract,#grid-item7-abstract,#grid-item8-abstract{
+   #grid-item6-abstract,#grid-item7-abstract,#grid-item8-abstract,#grid-item9-abstract{
     text-align: center;
     margin-bottom: 10px;
   }
