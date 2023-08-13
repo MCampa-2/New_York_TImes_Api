@@ -176,7 +176,7 @@ nav{
 }
 
 .info{
-    width: 60%;
+    width: 100%;
     margin-right: 10px;
 }
 
@@ -365,21 +365,27 @@ nav{
 
     .headline{
         flex-direction: column;
+        align-items: flex-start;
+       
     }
 
     .headline h1{
         font-size: 2rem;
+        width: 100%;
     }
 
     .headline h2{
         font-size: 1.2rem;
+        width: 100%;
+        
     }
 
     .headline p{
         font-size: 1rem;
+        width: 100%;
     }
 
-    .headline #autho{
+    .headline #author{
         font-size: 1rem;
     }
 
@@ -389,6 +395,7 @@ nav{
 
     .info{
         margin-bottom: 10px;
+        width: 100% !important;
     }
 
     #time, p{
@@ -449,8 +456,436 @@ nav{
    #grid-item5-caption{
     text-align: center;
    }
+    /* World */
+    
+   #headline-location-world{
+    font-size: 1.5rem;
+   }
+
+   #headline-caption-world{
+    font-size: 1.2rem;
+   }
+
+   #grid-item2-title-world{
+    text-align: center;
+    font-size: 1.5rem;
+   }
+
+   #grid-item2-abstract-world{
+    font-size: 1rem;
+    text-align: center;
+   }
+
+   #grid-item2-author-world{
+    text-align: center;
+   }
+
+   #grid-item3-caption-world{
+    text-align: center;
+    font-size: 1.2rem;
+   }
+
+   #grid-item4-title-world{
+    text-align: center;
+    font-size: 1.5rem;
+   }
+
+   #grid-item4-caption-world{
+    font-size: 1.2rem;
+    text-align: center;
+   }
+
+
+   #grid-item5-img-world{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+   }
+
+   #grid-item5-caption-world{
+    text-align: center;
+   }
+
+   /* Art */
+   #headline-location-art{
+    font-size: 1.5rem;
+   }
+
+   #headline-caption-art{
+    font-size: 1.2rem;
+   }
+
+   #grid-item2-title-art{
+    text-align: center;
+    font-size: 1.5rem;
+   }
+
+   #grid-item2-abstract-art{
+    font-size: 1rem;
+    text-align: center;
+   }
+
+   #grid-item2-author-art{
+    text-align: center;
+   }
+
+   #grid-item3-caption-art{
+    text-align: center;
+    font-size: 1.2rem;
+   }
+
+   #grid-item4-title-art{
+    text-align: center;
+    font-size: 1.5rem;
+   }
+
+   #grid-item4-caption-art{
+    font-size: 1.2rem;
+    text-align: center;
+   }
+
+
+   #grid-item5-img-art{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+   }
+
+   #grid-item5-caption-art{
+    text-align: center;
+   }
 
 }
+
+/* World */
+
+.picture-world{
+    width: 40%;
+}
+
+#img-world{
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+
+}
+
+.headline #author-world{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+.headline #author-world{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+
+#grid-item3-img-world{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+}
+
+#headline-location-world{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#headline-caption-world{
+    text-align: center;
+}
+
+#grid-item2-title-world{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#grid-item2-abstract-world{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#grid-item2-author-world{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+#grid-item4-img-world{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+}
+
+#grid-item3-caption-world{
+    font-size: 1.3rem;
+}
+
+#grid-item4-title-world{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#grid-item4-caption-world{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+#grid-item5-title-world{
+    text-align: center;
+    font-size: 1.6rem;
+   }
+
+#grid-item5-img-world{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+   }
+
+#grid-item5-caption-world{
+    text-align: center;
+   }
+
+
+   #grid-item5-title-world,#grid-item6-title-world,#grid-item7-title-world,#grid-item8-title-world,#grid-item9-title-world{
+    margin-bottom: 10px;
+    text-align: center;
+   }
+
+   #grid-item6-author-world,#grid-item7-author-world,#grid-item8-author-world,#grid-item9-author-world{
+    font-style: italic;
+    text-align: center;
+    color: var(--dim-gray);
+   }
+
+   #grid-item6-abstract-world,#grid-item7-abstract-world,#grid-item8-abstract-world,#grid-item9-abstract-world{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /*  Art */
+
+  
+.picture-art{
+    width: 40%;
+}
+
+#img-art{
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+
+}
+
+.headline #author-art{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+.headline #author-art{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+
+#grid-item3-img-art{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+}
+
+#headline-location-art{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#headline-caption-art{
+    text-align: center;
+}
+
+#grid-item2-title-art{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#grid-item2-abstract-art{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#grid-item2-author-art{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+#grid-item4-img-art{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+}
+
+#grid-item3-caption-art{
+    font-size: 1.3rem;
+}
+
+#grid-item4-title-art{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#grid-item4-caption-art{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+#grid-item5-title-art{
+    text-align: center;
+    font-size: 1.6rem;
+   }
+
+#grid-item5-img-art{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+   }
+
+#grid-item5-caption-art{
+    text-align: center;
+   }
+
+
+   #grid-item5-title-art,#grid-item6-title-art,#grid-item7-title-art,#grid-item8-title-art,#grid-item9-title-art{
+    margin-bottom: 10px;
+    text-align: center;
+   }
+
+   #grid-item6-author-art,#grid-item7-author-art,#grid-item8-author-art,#grid-item9-author-art{
+    font-style: italic;
+    text-align: center;
+    color: var(--dim-gray);
+   }
+
+   #grid-item6-abstract-art,#grid-item7-abstract-art,#grid-item8-abstract-art,#grid-item9-abstract-art{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+/* US */
+.picture-us{
+    width: 40%;
+}
+
+#img-us{
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+
+}
+
+.headline #author-us{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+.headline #author-us{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+
+#grid-item3-img-us{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+}
+
+#headline-location-us{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#headline-caption-us{
+    text-align: center;
+}
+
+#grid-item2-title-us{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#grid-item2-abstract-us{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#grid-item2-author-us{
+    font-style: italic;
+    color: var(--dim-gray);
+}
+
+#grid-item4-img-us{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+}
+
+#grid-item3-caption-us{
+    font-size: 1.3rem;
+}
+
+#grid-item4-title-us{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+#grid-item4-caption-us{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+#grid-item5-title-us{
+    text-align: center;
+    font-size: 1.6rem;
+   }
+
+#grid-item5-img-us{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+   }
+
+#grid-item5-caption-us{
+    text-align: center;
+   }
+
+
+   #grid-item5-title-us,#grid-item6-title-us,#grid-item7-title-us,#grid-item8-title-us,#grid-item9-title-us{
+    margin-bottom: 10px;
+    text-align: center;
+   }
+
+   #grid-item6-author-us,#grid-item7-author-us,#grid-item8-author-us,#grid-item9-author-us{
+    font-style: italic;
+    text-align: center;
+    color: var(--dim-gray);
+   }
+
+   #grid-item6-abstract-us,#grid-item7-abstract-us,#grid-item8-abstract-us,#grid-item9-abstract-us{
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
 
 footer{
