@@ -30,6 +30,8 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    z-index: 1;
+    position: relative;
 }
 
 .hamburger{
@@ -552,6 +554,55 @@ nav{
    }
 
    #grid-item5-caption-art{
+    text-align: center;
+   }
+
+   /* Us */
+   #headline-location-us{
+    font-size: 1.5rem;
+   }
+
+   #headline-caption-us{
+    font-size: 1.2rem;
+   }
+
+   #grid-item2-title-us{
+    text-align: center;
+    font-size: 1.5rem;
+   }
+
+   #grid-item2-abstract-us{
+    font-size: 1rem;
+    text-align: center;
+   }
+
+   #grid-item2-author-us{
+    text-align: center;
+   }
+
+   #grid-item3-caption-us{
+    text-align: center;
+    font-size: 1.2rem;
+   }
+
+   #grid-item4-title-us{
+    text-align: center;
+    font-size: 1.5rem;
+   }
+
+   #grid-item4-caption-us{
+    font-size: 1.2rem;
+    text-align: center;
+   }
+
+
+   #grid-item5-img-us{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+   }
+
+   #grid-item5-caption-us{
     text-align: center;
    }
 
