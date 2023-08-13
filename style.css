@@ -24,14 +24,12 @@ body::-webkit-scrollbar{
 
 nav{
     background-color: var(--ivory);
-    box-shadow: 2px 2px 3px var(--dark-slate-gray);
+    border: 2px solid var(--sage);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    position: relative;
-    z-index: 1;
 }
 
 .hamburger{
